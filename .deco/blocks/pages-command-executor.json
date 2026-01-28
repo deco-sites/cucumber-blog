@@ -1,0 +1,18 @@
+{
+  "name": "Command Executor",
+  "path": "/command",
+  "__resolveType": "website/pages/Page.tsx",
+  "sections": [
+    {
+      "__resolveType": "site/sections/CommandExecutor.tsx",
+      "title": "Linux Command Executor"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "title": "Command Executor",
+    "description": "Execute Linux commands via URL query parameters",
+    "canonical": "https://cucumber-blog.deco.site/command",
+    "noIndexing": true
+  }
+}
