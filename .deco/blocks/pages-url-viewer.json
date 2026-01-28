@@ -11,5 +11,12 @@
         "takeScreenshot": false
       }
     }
-  ]
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website",
+    "title": "URL Viewer",
+    "description": "View content from any URL"
+  }
 }
