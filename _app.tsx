@@ -7,7 +7,7 @@ export const Layout = ({ children, revision, hmrUniqueId }: {
 }) => {
   return (
     <>
-      {/* Include Icons and manifest */}
+      {/* Include Iconssss and manifest */}
       {/** @ts-ignore: ignore error */}
       <Head>
         {/* Enable View Transitions API */}
