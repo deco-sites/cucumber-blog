@@ -1,0 +1,15 @@
+{
+  "name": "URL Viewer",
+  "path": "/url-viewer",
+  "sections": [
+    {
+      "__resolveType": "site/sections/UrlContentDisplay.tsx",
+      "title": "URL Content Viewer",
+      "urlData": {
+        "__resolveType": "site/loaders/urlContent.ts",
+        "url": "https://deco.cx",
+        "takeScreenshot": false
+      }
+    }
+  ]
+}

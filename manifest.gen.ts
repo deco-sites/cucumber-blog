@@ -5,6 +5,7 @@
 import * as $$$$$$$$$$$0 from "./apps/deco/blog.ts";
 import * as $$$$$$$$$$$1 from "./apps/deco/htmx.ts";
 import * as $$$$$$$$$$$2 from "./apps/site.ts";
+import * as $$$0 from "./loaders/urlContent.ts";
 import * as $$$$$$0 from "./sections/BlogPost.tsx";
 import * as $$$$$$1 from "./sections/BlogPosts.tsx";
 import * as $$$$$$2 from "./sections/Faq.tsx";
@@ -16,8 +17,12 @@ import * as $$$$$$7 from "./sections/Logos.tsx";
 import * as $$$$$$8 from "./sections/MainPost.tsx";
 import * as $$$$$$9 from "./sections/Testimonials.tsx";
 import * as $$$$$$10 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$11 from "./sections/UrlContentDisplay.tsx";
 
 const manifest = {
+  "loaders": {
+    "site/loaders/urlContent.ts": $$$0,
+  },
   "sections": {
     "site/sections/BlogPost.tsx": $$$$$$0,
     "site/sections/BlogPosts.tsx": $$$$$$1,
@@ -30,6 +35,7 @@ const manifest = {
     "site/sections/MainPost.tsx": $$$$$$8,
     "site/sections/Testimonials.tsx": $$$$$$9,
     "site/sections/Theme/Theme.tsx": $$$$$$10,
+    "site/sections/UrlContentDisplay.tsx": $$$$$$11,
   },
   "apps": {
     "site/apps/deco/blog.ts": $$$$$$$$$$$0,
